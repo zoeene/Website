@@ -20,6 +20,7 @@ a {
 }
 
 
+
 nav {
   position: fixed;
   display: block;
@@ -63,6 +64,37 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   margin-bottom: 5%;
 }
 
+.LinksUL li a:hover {
+  color: #000000;
+}
+
+/*#search i a:active {
+  color: linear-gradient(-126deg, #DDC38B 48%, #F791E3 69%, #EB7B58 95%);
+}*/
+
+.LinksUL li a:active {
+  background: #419BF9;
+  border-radius: 3px;
+
+  font-family: Dosis-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  line-height: 13px;
+}
+
+
+
+ul.LinksUL li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #9b9b9b;
+    float: right;
+    padding: 0 5%;
+    overflow: hidden;
+}
 
 
 .RightLinks, .LeftLogo {
@@ -86,23 +118,41 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   margin: 6% 8%;
 }
 
-/*.NavLinks {
-  display: inline;
-  margin: 0 6%;
+.NavLinks {
+  display: block;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.5px;
-  color: #9b9b9b;
-  float: right;
-}*/
+  color: #90C7FF;
+  padding: 0 5%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
 
-ul.LinksUL li {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    color: #9b9b9b;
-    float: right;
-    padding: 0 5%;
-    overflow: hidden;
+.NavLinks a:hover {
+  color: #419BF9;
+}
+
+.Grid {
+  margin-right: 15.8%;
+  margin-top: 14%;
+  margin-bottom: 1.5%;
+  margin-left: 15.8%;
+  display: block;
+  height: 68.86%;
+}
+
+.Project {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #9b9b9b;
+  margin: 1.15%;
+  display: inline-block;
+
+}
+
+.Gallery {
+  margin: 0 auto;
 }
