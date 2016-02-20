@@ -60,8 +60,10 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
 
 .LinksUL {
   padding-left: 0px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  /*margin-top: 6.5%;
+  margin-bottom: 6.5%;*/
+  height: 128px;
+  margin: 0;
 }
 
 .LinksUL li a:hover {
@@ -92,7 +94,7 @@ ul.LinksUL li {
     letter-spacing: 0.5px;
     color: #9b9b9b;
     float: right;
-    padding: 0 5%;
+    padding: 6.6% 5%;
     overflow: hidden;
 }
 
@@ -115,7 +117,7 @@ ul.LinksUL li {
 
 .Logo {
   border: 0;
-  margin: 6% 8%;
+  margin: 8% 8%;
 }
 
 .NavLinks {
