@@ -87,17 +87,36 @@ height: 13.3%;
 background: rgba(255,255,255,0.98);
 box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
 
+/*@keyframes GradientBar {
+    0% {background-position:0% 50%}
+    50% {background-position:100% 50%}
+    100% {background-position:0% 50%}
+}*/
+
+
+-webkit-animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
 .BrandGradient {
   display: inline-block;
   position: fixed;
   bottom: 0px;
   margin: 0px;
   width: 100%;
-  height: 20px;
+  height: 15px;
   transform: rotate(180deg);
-  background-image: linear-gradient(-126deg, #DDC38B 48%, #F791E3 69%, #EB7B58 95%);
-
+  background: linear-gradient(270deg, #ddc38b, #f791e3, #eb7b58);
+  /*-webkit-animation: mymove 10s ease infinite;*/
+  /*animation: GradientBar 30s ease infinite;*/
 }
+
+
 
 /*.fa-search a:hover {
   color: #586868
@@ -233,6 +252,7 @@ ul.LinksUL li {
 
 ::-webkit-scrollbar {
     width: 9px;
+
 }
 
 /* Track */
