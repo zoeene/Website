@@ -4,15 +4,15 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
- <title>ZCË</title>
+  <title>ZCË</title>
+
+  <meta charset="UTF-8">
   <meta name="description" content="">
-  <meta name="author" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -47,7 +47,7 @@
 <header>
 
 <div class="container">
-  <nav>
+  <nav class="Navigation">
     <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
     <div class="LeftLogo">
       <a href="#">
@@ -58,14 +58,24 @@
     <div class="RightLinks">
       <ul class="LinksUL">
         <li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
-        <li><a href="#">Resumé</a></li>
-        <li><a href="#">Say Hi!</a></li>
-        <li><a href="#">Recent Work</a></li>
-        <li><a href="#">Who Am I?</a></li>
+        <li><a href="#" id="Page4">Resumé</a></li>
+        <li><a href="#" id="Page3">Say Hi!</a></li>
+        <li><a href="#" id="Page2">Who Am I?</a></li>
+        <li><a href="#" id="Page1">Recent Work</a></li>
       </ul>
     </div>
   </nav>
 </div>
+
+<nav class="MobileNav fadeInDown">
+  <ul>
+    <li><a href="#" id="Page1">Recent Work</a></li>
+    <li><a href="#" id="Page2">Who Am I?</a></li>
+    <li><a href="#" id="Page3">Say Hi!</a></li>
+    <li><a href="#" id="Page4">Resumé</a></li>
+    <li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
+  </ul>
+</nav>
 
 </header>
 
@@ -77,7 +87,10 @@
     <!-- </div> -->
 
     <!-- <div class="Project"> -->
-      <a href="#" class="Thumbnail Project"><img src="images/Bellytour_Proj.png" alt="BellyTour"/></a>
+      <a href="#" class="Thumbnail Project">
+        <img src="images/Bellytour_Proj.png" alt="BellyTour"/>
+        <div class="GradientHover_BT"><h3 class="ProjName">BellyTour</h3><p class="ProjDescription">UI/UX</p></div>
+      </a>
     <!-- </div> -->
 
     <!-- <div class="Project"> -->
@@ -111,7 +124,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
   $('.MobileNavIcon').on('click', function(){
-    $('#').toggle();
+    $('MobileNav').toggle();
   });
 
   $('.MobileNavIcon').on('click', function(){
