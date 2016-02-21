@@ -62,8 +62,9 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   padding-left: 0px;
   /*margin-top: 6.5%;
   margin-bottom: 6.5%;*/
-  height: 128px;
+  height: inherit;
   margin: 0;
+  max-height: 128px;
 }
 
 .LinksUL li a:hover {
@@ -101,7 +102,7 @@ ul.LinksUL li {
 
 
 .RightLinks, .LeftLogo {
-  height: 128px;
+  height: inherit;
   margin: 0px;
   display: inline-block;
 
