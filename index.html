@@ -8,6 +8,7 @@
  <title>ZCË</title>
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -27,7 +28,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -47,6 +48,7 @@
 
 <div class="container">
   <nav>
+    <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
     <div class="LeftLogo">
       <a href="#">
         <img src="images/ZCE_Logo.png" alt="Zoë Chinonso Ene" class="Logo"/>
@@ -55,7 +57,7 @@
 
     <div class="RightLinks">
       <ul class="LinksUL">
-        <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+        <li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
         <li><a href="#">Resumé</a></li>
         <li><a href="#">Say Hi!</a></li>
         <li><a href="#">Recent Work</a></li>
@@ -67,6 +69,7 @@
 
 </header>
 
+<main>
 <div class="Grid">
   <div class="Gallery">
     <!-- <div class="Project"> -->
@@ -102,6 +105,22 @@
 <footer>
   <div class="BrandGradient" ></div>
 </footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $('.MobileNavIcon').on('click', function(){
+    $('#').toggle();
+  });
+
+  $('.MobileNavIcon').on('click', function(){
+    $(this).css("display", "none");
+  });
+
+</script>
+
+</main>
 
 </body>
 </html>
