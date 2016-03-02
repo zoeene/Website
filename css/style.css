@@ -370,6 +370,18 @@ z-index: 2;
 
 }
 
+.CessnaGradient {
+background: linear-gradient(-148deg, #CACACA 22%, #0200FF 100%);
+display: inline-block;
+position: relative;
+top: 0px;
+transform: rotate(180deg);
+width: 100%;
+height: 10px;
+z-index: 2;
+
+}
+
 .ProjectPage {
   width: 100%;
   height: inherit;
@@ -430,6 +442,7 @@ ul.Exit li {
   width: 100%;
 
 }
+
 
 
 
