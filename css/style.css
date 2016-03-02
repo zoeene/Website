@@ -128,12 +128,10 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
 }*/
 
 
--webkit-animation: AnimationName 30s ease infinite;
-
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {background-position:0% 50%}
+    50% {background-position:100% 50%}
+    100% {background-position:0% 50%}
 }
 
 
@@ -143,11 +141,17 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   bottom: 0px;
   margin: 0px;
   width: 100%;
-  height: 15px;
+  height: 10px;
   transform: rotate(180deg);
   background: linear-gradient(270deg, #ddc38b, #f791e3, #eb7b58);
   /*-webkit-animation: mymove 10s ease infinite;*/
   /*animation: GradientBar 30s ease infinite;*/
+}
+
+
+
+ .BrandGradient {
+  -webkit-animation: AnimationName 30s ease infinite;
 }
 
 
@@ -255,11 +259,11 @@ ul.LinksUL li {
 .Project {
   width: 250px;
   height: 250px;
-  border-radius: 5px;
+  /*border-radius: 2.5px;*/
   background-color: #c6c6c6;
   margin: 2%;
   display: inline-block;
-  box-shadow: 0px 2px 4px 0px rgba(155,155,155,0.40);
+  box-shadow: 0px 1px 1px 0px rgba(155,155,155,0.10);
   text-align: center;
   overflow: hidden;
 }
@@ -288,7 +292,7 @@ ul.LinksUL li {
 
 
 .Thumbnail img:hover {
-   -webkit-filter: blur(4px);
+   -webkit-filter: blur(3px);
 
   }
 
@@ -334,6 +338,25 @@ display: none;
   display: block;
 }
 
+
+.BupuGradient {
+background: linear-gradient(-147deg, #FFBA37 27%, #FD3277 100%);
+display: inline-block;
+position: relative;
+top: 0px;
+transform: rotate(180deg);
+width: 100%;
+height: 10px;
+
+}
+
+.ProjectTitles {
+  width: 100%;
+  height: inherit;
+  padding: 2%;
+  opacity: 0.97;
+  background-image: linear-gradient(-180deg, #EFE700 50%, #DFD600 100%); 
+}
 
 
 
