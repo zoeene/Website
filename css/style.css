@@ -253,6 +253,7 @@ ul.LinksUL li {
   text-align: center;
   padding-bottom: 4%;
   padding-top: 1%;
+  background: transparent;
 }
 
 .NavLinks a:hover {
@@ -491,6 +492,8 @@ ul.Exit li {
   width: 100%;
 
 }
+
+
 
 
 
