@@ -313,35 +313,122 @@ ul.LinksUL li {
    -webkit-filter: blur(3px);
   }*/
 
-  .GradientHover_BT {
+  .GradientHover_KDR {
   text-align: center;
   width: inherit;
-  opacity: 0.8;
-  background-image: linear-gradient(-135deg, #419BF9 50%, #9EFD32 100%);
-  border-radius: 3.35px;
+  opacity: 0.7;
+  background-image: linear-gradient(-135deg, #FFD100 0%, #E3FF00 100%);
+  /*border-radius: 3.35px;*/
   z-index: 1;
   display: none;
   margin-top: -300px;
 
+  }
+
+  .GradientHover_BT {
+  text-align: center;
+  width: inherit;
+  opacity: 0.7;
+  background-image: linear-gradient(-135deg, #419BF9 50%, #9EFD32 100%);
+  /*border-radius: 3.35px;*/
+  z-index: 1;
+  display: none;
+  margin-top: -300px;
 }
+
+.GradientHover_PCH {
+text-align: center;
+width: inherit;
+opacity: 0.7;
+background-image: linear-gradient(-147deg, #FFF037 27%, #32FDDD 100%);
+/*border-radius: 3.35px;*/
+z-index: 1;
+display: none;
+margin-top: -300px;
+
+}
+
+.GradientHover_CS {
+text-align: center;
+width: inherit;
+opacity: 0.7;
+background-image: linear-gradient(-148deg, #CACACA 22%, #0200FF 100%);
+/*border-radius: 3.35px;*/
+z-index: 1;
+display: none;
+margin-top: -300px;
+
+}
+
+.GradientHover_SLK {
+text-align: center;
+width: inherit;
+opacity: 0.7;
+background-image: linear-gradient(-146deg, #FC1686 28%, #A132FD 100%);
+/*border-radius: 3.35px;*/
+z-index: 1;
+display: none;
+margin-top: -300px;
+
+}
+
+
+.GradientHover_BP {
+text-align: center;
+width: inherit;
+opacity: 0.7;
+background-image: linear-gradient(-147deg, #FFBA37 27%, #FD3277 100%);
+/*border-radius: 3.35px;*/
+z-index: 1;
+display: none;
+margin-top: -300px;
+
+}
+
 
 .Project:hover .GradientHover_BT{
   display: block;
+
 }
+#KDR:hover .GradientHover_KDR{
+  display: block;
+}
+
+#PCH:hover .GradientHover_PCH{
+  display: block;
+}
+
+#CS:hover .GradientHover_CS{
+  display: block;
+}
+
+#SLK:hover .GradientHover_SLK{
+  display: block;
+}
+
+#BP:hover .GradientHover_BP{
+  display: block;
+}
+
 
 .Project:hover img{
   -webkit-filter: blur(3px);
 }
 
 .ProjName {
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 
-.ProjName h3 {
+.ProjDescription {
+  padding-bottom: 100px;
+}
+
+h3.ProjName {
+/*padding: 100px 0px;*/
 font-family: Dosis-Regular;
-font-size: 45px;
+font-size: 40px;
 color: #FFFFFF;
-line-height: 45px;
+line-height: 40px;
 text-align: center;
 margin-bottom: 0px;
 display: block;
@@ -351,9 +438,9 @@ font-weight: lighter;
 }
 
 p.ProjDescription {
-opacity: 0.5;
+opacity: 0.7;
 font-family: Dosis-Regular;
-font-size: 24px;
+font-size: 22px;
 color: #FFFFFF;
 margin-top: 0px;
 /*line-height: 24px;*/
