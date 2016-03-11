@@ -90,6 +90,7 @@ header {
   display: block;
   position: fixed;
   width: 100%;
+  top: 0px;
 }
 
 a {
@@ -466,9 +467,9 @@ text-align: center;
 
 .BupuGradient {
 background: linear-gradient(-147deg, #FFBA37 27%, #FD3277 100%);
-display: inline-block;
-position: relative;
-top: 0px;
+display: block;
+position: fixed;
+margin-top: 131px;
 transform: rotate(180deg);
 width: 100%;
 height: 10px;
@@ -478,9 +479,9 @@ z-index: 2;
 
 .CessnaGradient {
 background: linear-gradient(-148deg, #CACACA 22%, #0200FF 100%);
-display: inline-block;
-position: relative;
-top: 0px;
+display: block;
+position: fixed;
+margin-top: 131px;
 transform: rotate(180deg);
 width: 100%;
 height: 10px;
@@ -491,9 +492,9 @@ z-index: 2;
 
 .PouchGradient {
 background-image: linear-gradient(-147deg, #FFF037 27%, #32FDDD 100%);
-display: inline-block;
-position: relative;
-top: 0px;
+display: block;
+position: fixed;
+margin-top: 131px;
 transform: rotate(180deg);
 width: 100%;
 height: 10px;
@@ -503,7 +504,7 @@ z-index: 2;
 
 .BellyGradient {
 background-image: linear-gradient(-135deg, #419BF9 50%, #9EFD32 100%);
-display: inline-block;
+display: block;
 position: fixed;
 /*top: 0px;*/
 transform: rotate(180deg);
@@ -511,14 +512,15 @@ width: 100%;
 height: 10px;
 z-index: 2;
 margin: 0 auto;
+margin-top: 131px;
 
 }
 
 .SlackGradient {
 background-image: linear-gradient(-146deg, #FC1686 28%, #A132FD 100%);
-display: inline-block;
-position: relative;
-top: 0px;
+display: block;
+position: fixed;
+margin-top: 131px;
 transform: rotate(180deg);
 width: 100%;
 height: 10px;
@@ -528,9 +530,9 @@ z-index: 2;
 
 .KinderGradient {
 background-image: linear-gradient(-135deg, #FFD100 0%, #E3FF00 100%);
-display: inline-block;
-position: relative;
-top: 0px;
+display: block;
+position: fixed;
+margin-top: 131px;
 transform: rotate(180deg);
 width: 100%;
 height: 10px;
@@ -659,27 +661,25 @@ height: 65%;
 
  #Quoteh5 {
    font-size: 22px;
-   font-weight: bold;
    color: #00E9A7;
-   font-family: HelveticaNeue;
+   font-family: HelveticaNeue-Bold;
 
  }
 
  #Quoteh3 {
    font-size: 30px;
    line-height: 34px;
-   font-weight: 500;
    color: #ffffff;
-   font-family: HelveticaNeue;
+   font-family: HelveticaNeue-Medium;
 
  }
 
  #Quotep {
-   color: #ffffff;
-   opacity: 0.5;
-  font-family: HelveticaNeue;
-   font-size: 18px;
-   line-height: 28px;
+  color: #ffffff;
+  /*opacity: 0.5;*/
+  font-family: HelveticaNeue-Thin;
+  font-size: 18px;
+  line-height: 28px;
 
  }
 
@@ -698,8 +698,8 @@ height: 65%;
    background: transparent;
  }
 
- .InvisionLinks a:hover {
-   font-weight: bolder;
+ .InvisionLinks a :hover {
+   font-weight: bold;
  }
 
 
