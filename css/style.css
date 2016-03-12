@@ -617,16 +617,28 @@ ul.Exit li {
   margin-bottom: 12%;
 }
 
-#BT_Devices {
+#BT_Devices{
 width: 65%;
 height: 65%;
+margin: 0 auto;
+}
+
+#Bupu_Devices {
+width: 90%;
+height: 90%;
+margin: 0 auto;
+}
+
+#PCH_Devices {
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+
 }
 
 #Green {
   background-color: #00E9A7;
 }
-
-
 
 #Grey {
   background-color: #FAFAFA;
@@ -640,7 +652,7 @@ height: 65%;
  #Grey p {
   /*float: right;*/
   width: 50%;
-  line-height: 28px;
+  display: inline-block;
 
  }
 
@@ -648,7 +660,27 @@ height: 65%;
    background-color: #676767;
  }
 
- #Green, #Grey, #Stone {
+#Yellow {
+  background-color: #F7E80E;
+}
+
+#Yellow p {
+  width: 50%;
+  line-height: 28px;
+}
+
+#Mint {
+  background-color: #82C5B2;
+}
+
+#Mint p {
+ /*float: right;*/
+ width: 50%;
+ display: inline-block;
+
+}
+
+ #Green, #Grey, #Stone, #Yellow, #Mint {
    padding: 5% 15%;
    /*margin: 10% 0;*/
  }
@@ -696,8 +728,26 @@ height: 65%;
    font-weight: bold;
  }
 
+#BT_LFWireframes, #Kale  {
+  display: block;
+  float: right;
+  margin: auto;
+}
 
+#PCH_Mac {
+  float: left;
+  margin: 0px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 50%;
+padding: 0px;
+}
 
+#PCH_Logo {
+  width: 6%;
+  height: 6%
+}
 
 
 /*------Media Queries
