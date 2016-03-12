@@ -91,6 +91,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 1;
 }
 
 a {
@@ -741,7 +742,6 @@ margin: 0 auto;
   z-index: 1;
   display: inline-block;
   width: 50%;
-padding: 0px;
 }
 
 #PCH_Logo {
