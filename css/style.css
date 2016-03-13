@@ -261,11 +261,16 @@ ul.LinksUL li {
   text-align: center;
   padding-bottom: 4%;
   padding-top: 1%;
-  background: transparent;
+  padding: transparent;
 }
 
 .NavLinks a:hover {
   font-weight: bolder;
+}
+
+.NavLinks a:active {
+  border-radius: 3px;
+  padding: #419BF9;
 }
 
 .Grid {
@@ -710,7 +715,7 @@ margin: 0 auto;
 
  }
 
- .InvisionLinks {
+ .InvisionLinks, .ComingSoon {
    display: inline-block;
    text-transform: uppercase;
    font-size: 25px;
@@ -723,16 +728,27 @@ margin: 0 auto;
    padding-bottom: 5%;
    padding-top: 5%;
    background: transparent;
+   width: 100%;
  }
 
- .InvisionLinks a :hover {
+ .InvisionLinks a:hover {
    font-weight: bold;
  }
+
+.ComingSoon h3 {
+  margin: 0 auto;
+  color: #9b9b9b;
+}
 
 #BT_LFWireframes, #Kale  {
   display: block;
   float: right;
   margin: auto;
+}
+
+#Kale {
+  width: 65%;
+  height: 65%;
 }
 
 #PCH_Mac {
@@ -746,8 +762,22 @@ margin: 0 auto;
 
 #PCH_Logo {
   width: 6%;
-  height: 6%
+  height: 6%;
 }
+
+#CessnaxRISD {
+  width: 15%;
+  height: 15%;
+
+}
+
+#KinderLogo {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+
 
 
 /*------Media Queries
