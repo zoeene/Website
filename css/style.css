@@ -247,7 +247,9 @@ ul.LinksUL li {
 
 .Logo {
   border: 0;
-  margin: 8% 8%;
+  margin: 9% 9%;
+  width: 25%;
+  height: 25%;
 }
 
 .NavLinks {
@@ -784,6 +786,13 @@ margin: 0 auto;
 #SLK_Device {
   width: 100%;
   height: 100%;
+  margin-bottom: 5%;
+}
+
+#hello {
+  width: 12%;
+  height: 12%;
+  margin-top: 10%;
 }
 
 /*------Media Queries
