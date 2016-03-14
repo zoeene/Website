@@ -666,6 +666,7 @@ margin: 0 auto;
 
  #Stone {
    background-color: #676767;
+   margin-bottom: 5%;
  }
 
 #Yellow {
@@ -793,6 +794,10 @@ margin: 0 auto;
   width: 12%;
   height: 12%;
   margin-top: 10%;
+}
+
+#searchbar {
+  display: inline-block;
 }
 
 /*------Media Queries
