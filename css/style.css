@@ -91,7 +91,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
 }
 
 a {
@@ -275,7 +275,7 @@ ul.LinksUL li {
 
 .Grid {
   margin-right: 10%;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 10%;
   display: inline-block;
@@ -570,11 +570,10 @@ z-index: 2;
 }
 
 .Close {
-  width: 10%;
-  float: right;
-  padding-top: 100px;
-  display: block;
+  right: 100px;
+  top: 200px;
   position: fixed;
+  display: block;
 }
 
 .Exit {
@@ -620,9 +619,15 @@ ul.Exit li {
 }
 
 .ProjLogo {
-  width: 8%;
-  height: 8%;
-  margin-bottom: 12%;
+  width: 12%;
+  height: 12%;
+  margin-bottom: 10%;
+}
+
+#BP_Logo {
+  width: 15%;
+  height: 15%;
+  margin-bottom: 10%;
 }
 
 #BT_Devices{
@@ -646,10 +651,13 @@ margin: 0 auto;
 
 #Green {
   background-color: #00E9A7;
+  margin-top: 12%;
+
 }
 
 #Grey {
   background-color: #FAFAFA;
+  margin-top: 15%;
 }
 
 #Green p {
@@ -661,16 +669,20 @@ margin: 0 auto;
   /*float: right;*/
   width: 50%;
   display: inline-block;
+  margin-left: 500px;
 
  }
 
  #Stone {
    background-color: #676767;
    margin-bottom: 5%;
+   margin-top: 12%;
  }
 
 #Yellow {
   background-color: #F7E80E;
+  margin-top: 18%;
+
 }
 
 #Yellow p {
@@ -680,16 +692,27 @@ margin: 0 auto;
 
 #Mint {
   background-color: #82C5B2;
+  margin-top: 12%;
 }
 
 #Mint p {
- /*float: right;*/
  width: 50%;
  display: inline-block;
 
 }
 
- #Green, #Grey, #Stone, #Yellow, #Mint {
+#White {
+  background-color: #FFFFFF;
+  margin-top: 20%;
+}
+
+#White p {
+ width: 50%;
+ display: inline-block;
+
+}
+
+ #Green, #Grey, #Stone, #Yellow, #Mint, #White {
    padding: 5% 15%;
    /*margin: 10% 0;*/
  }
@@ -697,7 +720,7 @@ margin: 0 auto;
  #Quoteh5 {
    font-size: 22px;
    color: #00E9A7;
-   font-family: HelveticaNeue-Bold;
+   font-family: Dosis-Bold;
 
  }
 
@@ -705,14 +728,14 @@ margin: 0 auto;
    font-size: 30px;
    line-height: 34px;
    color: #ffffff;
-   font-family: HelveticaNeue-Medium;
+   font-family: Dosis-Medium;
 
  }
 
  #Quotep {
   color: #ffffff;
   /*opacity: 0.5;*/
-  font-family: HelveticaNeue-Thin;
+  font-family: Dosis-Light;
   font-size: 18px;
   line-height: 28px;
 
@@ -749,23 +772,55 @@ margin: 0 auto;
   margin: auto;
 }
 
+#BT_LFWireframes {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: -320px;
+  margin-right: -50px;
+}
+
+.BT_LFWireframes {
+  display: inline-block;
+  float: right;
+}
+
 #Kale {
-  width: 65%;
-  height: 65%;
+  width: 75%;
+  height: 75%;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  left: 90px;
+  margin-top: -325px;
+
+}
+
+.Kale {
+  display: inline-block;
+  float: right;
+
 }
 
 #PCH_Mac {
-  float: left;
-  margin: 0px;
+  /*float: left;*/
+  margin-left: -210px;
+  margin-top: -100px;
   position: relative;
-  /*z-index: 1;*/
+  left: 0px;
+  z-index: 1;
   display: inline-block;
-  width: 50%;
+  width: 135%;
+}
+
+.PCH_Mac {
+  display: inline-block;
+  float: left;
 }
 
 #PCH_Logo {
-  width: 6%;
-  height: 6%;
+  width: 8%;
+  height: 8%;
 }
 
 #CessnaxRISD {
@@ -775,8 +830,8 @@ margin: 0 auto;
 }
 
 #KinderLogo {
-  width: 8%;
-  height: 8%;
+  width: 10%;
+  height: 10%;
 }
 
 #KPCBxSlack {
@@ -795,9 +850,56 @@ margin: 0 auto;
   height: 12%;
   margin-top: 10%;
 }
-
+/*
 #searchbar {
   display: inline-block;
+}*/
+
+#BT_iPhone {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 70%;
+  height: 70%;
+  margin-top: -370px;
+  left: 100px;
+}
+
+.BT_iPhone {
+  display: inline-block;
+  float: left;
+}
+
+#BT_Screens {
+  width: 97%;
+  height: 97%;
+}
+
+.BT_Screens {
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+#BP_Images {
+  width: 70%;
+  height: 70%;
+}
+
+#BupuBook {
+  /*float: left;*/
+  margin-left: -210px;
+  margin-top: -190px;
+  position: relative;
+  left: 0px;
+  z-index: 1;
+  display: inline-block;
+  width: 120%;
+  height: 120%
+}
+
+.BupuBook {
+  display: inline-block;
+  float: left;
 }
 
 /*------Media Queries
@@ -827,23 +929,23 @@ margin: 0 auto;
 /*------Customizations
 ====================================*/
 
-::-webkit-scrollbar {
-    width: 9px;
+/*::-webkit-scrollbar {
+    width: 9px;*/
 
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+/*::-webkit-scrollbar-track {*/
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);*/
-    -webkit-border-radius: 10px;
+    /*-webkit-border-radius: 10px;
     background: transparent;
-}
+}*/
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/*::-webkit-scrollbar-thumb {*/
     /*-webkit-border-radius: 10px;*/
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
-    background: #F5F5F5;
-    border-radius: 100px;
+    /*background: #F5F5F5;
+    border-radius: 100px;*/
 
 }
