@@ -131,6 +131,7 @@ nav {
 
 
 
+
 /*.container {
   width: 100%;
   height: 128px;
@@ -224,7 +225,7 @@ ul.LinksUL li {
     letter-spacing: 0.5px;
     color: #9b9b9b;
     float: right;
-    padding: 6.6% 5%;
+    padding: 6.6% 5.5%;
     overflow: hidden;
 }
 
@@ -576,6 +577,10 @@ z-index: 2;
   display: block;
 }
 
+.Close :hover {
+  color: #444444;
+}
+
 .Exit {
   padding-left: 0px;
   /*margin-top: 6.5%;
@@ -590,7 +595,7 @@ ul.Exit li {
     /*text-transform: uppercase;*/
     font-size: 18px;
     letter-spacing: 0.5px;
-    color: #000;
+    color: #9b9b9b;
     /*float: left;*/
     padding: 5% 0px;
     overflow: hidden;
@@ -625,8 +630,8 @@ ul.Exit li {
 }
 
 #BP_Logo {
-  width: 15%;
-  height: 15%;
+  width: 14%;
+  height: 14%;
   margin-bottom: 10%;
 }
 
@@ -757,6 +762,10 @@ margin: 0 auto;
    width: 100%;
  }
 
+ .InvisionLinks {
+   margin-top: 3%;
+ }
+
  .InvisionLinks a:hover {
    font-weight: bold;
  }
@@ -877,12 +886,14 @@ margin: 0 auto;
 
 .BT_Screens {
   margin-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 #BP_Images {
   width: 70%;
   height: 70%;
+  margin-top: 12%;
+
 }
 
 #BupuBook {
@@ -901,6 +912,117 @@ margin: 0 auto;
   display: inline-block;
   float: left;
 }
+
+#BP_LogoIteration_1 {
+  width: 70%;
+  height: 70%;
+  margin-top: 6%;
+
+}
+
+#BP_LogoIteration_2 {
+  width: 60%;
+  height: 60%;
+  margin-top: 12%;
+  margin-bottom: 10%;
+
+}
+
+#BP_Survey {
+  width: 55%;
+  height: 55%;
+  margin-top: 12%;
+}
+
+.ProjHeaders {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  color: #9b9b9b;
+  background-color: #fcfcfc;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#BT_LogoIteration_1 {
+  width: 65%;
+  height: 65%;
+  margin-top: 8%;
+}
+
+
+#BT_LogoIteration_2 {
+  width: 70%;
+  height: 70%;
+  margin-top: 8%;
+}
+
+#BT_LogoIteration_3 {
+  width: 60%;
+  height: 60%;
+  margin-top: 12%;
+}
+
+#BT_Sketches {
+  width: 90%;
+  height: 90%;
+  margin-top: 4%;
+}
+
+#notice {
+color: #9b9b9b;
+margin-bottom: 5%;
+}
+
+#notice a {
+  color: #444444;
+}
+
+#PCH_LogoIteration_1 {
+  width: 70%;
+  height: 70%;
+  margin-top: 8%;
+}
+
+#PCH_LogoIteration_2 {
+  width: 55%;
+  height: 55%;
+  margin-top: 8%;
+}
+
+#buttonhalf {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+
+#PCH_Screens {
+  width: 75%;
+  height: 75%;
+  margin-top: 4%;
+}
+
+:-moz-placeholder {
+    color: #9b9b9b;
+}
+
+::-webkit-input-placeholder {
+    color: #9b9b9b;
+}
+
+*:focus {outline: none;}
+
+ .contact_form label {
+  font-family: Dosis-Light;
+  margin-top: 10%;
+}
+
+.form_hint, .required_notification
+{font-size: 11px;
+}
+
+
+
 
 /*------Media Queries
 ====================================*/
