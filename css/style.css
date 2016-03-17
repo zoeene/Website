@@ -167,7 +167,7 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   bottom: 0px;
   margin: 0px;
   width: 100%;
-  height: 10px;
+  height: 12px;
   transform: rotate(180deg);
   background: linear-gradient(270deg, #ddc38b, #f791e3, #eb7b58);
   /*-webkit-animation: mymove 10s ease infinite;*/
@@ -227,7 +227,7 @@ ul.LinksUL li {
     /*letter-spacing: 0.5px;*/
     color: #9b9b9b;
     float: right;
-    padding: 6.6% 5.25%;
+    padding: 5.5% 5.25%;
     overflow: hidden;
 }
 
@@ -253,20 +253,23 @@ ul.LinksUL li {
   margin: 9% 9%;
   width: 25%;
   height: 25%;
+  padding: 0 5.25%;
+  margin-top: 38px;
+
 }
 
+
 .NavLinks {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  color: #90C7FF;
-  overflow: hidden;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 4%;
-  padding-top: 1%;
-  padding: transparent;
+  display: block;
+text-transform: uppercase;
+font-size: 15px;
+letter-spacing: 0.5px;
+color: #dcdcdc;
+overflow: hidden;
+margin: 0 auto;
+text-align: center;
+padding: transparent;
+padding: 0.5%;
 }
 
 
@@ -278,7 +281,7 @@ ul.LinksUL li {
 
 .Grid {
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 8.25%;
   margin-bottom: 1%;
   margin-left: 10%;
   display: inline-block;
@@ -295,7 +298,7 @@ ul.LinksUL li {
   height: 250px;
   /*border-radius: 2.5px;*/
   background-color: #c6c6c6;
-  margin: 2%;
+  margin: 1.5%;
   display: inline-block;
   /*box-shadow: 0px 1px 1px 0px rgba(155,155,155,0.10);*/
   text-align: center;
@@ -314,10 +317,22 @@ ul.LinksUL li {
   text-align: center;
 }
 
-.More, .Invision {
+.Invision {
   text-align: center;
   display: block;
   position: relative;
+}
+
+.More {
+text-align: center;
+display: block;
+position: fixed;
+background-color: #f9F9F9;
+width: 100%;
+/*margin-bottom: 5%;*/
+bottom: 0px;
+z-index: 3;
+margin-bottom: 12px;
 }
 
 
@@ -482,8 +497,10 @@ display: block;
 position: fixed;
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
+bottom: 0px;
+
 
 }
 
@@ -493,8 +510,9 @@ display: block;
 position: fixed;
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
+bottom: 0px;
 
 }
 
@@ -505,8 +523,9 @@ display: block;
 position: fixed;
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
+bottom: 0px;
 
 }
 
@@ -517,9 +536,10 @@ position: fixed;
 /*top: 0px;*/
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
 margin: 0 auto;
+bottom: 0px;
 
 }
 
@@ -529,8 +549,9 @@ display: block;
 position: fixed;
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
+bottom: 0px;
 
 }
 
@@ -540,8 +561,10 @@ display: block;
 position: fixed;
 transform: rotate(180deg);
 width: 100%;
-height: 10px;
+height: 12px;
 z-index: 2;
+bottom: 0px;
+
 
 }
 
@@ -638,8 +661,8 @@ ul.Exit li {
 }
 
 #BT_Devices{
-width: 65%;
-height: 65%;
+width: 70%;
+height: 70%;
 margin: 0 auto;
 }
 
@@ -683,7 +706,7 @@ margin: 0 auto;
  #Stone {
    background-color: #676767;
    margin-bottom: 5%;
-   margin-top: 12%;
+   /*margin-top: 12%;*/
  }
 
 #Yellow {
@@ -762,6 +785,8 @@ margin: 0 auto;
    /*padding-top: 5%;*/
    background: transparent;
    width: 100%;
+   margin-top: 5%;
+   margin-bottom: 5%;
  }
 
  .InvisionLinks {
@@ -797,13 +822,13 @@ margin: 0 auto;
 }
 
 #Kale {
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
   position: relative;
   z-index: 1;
   display: inline-block;
   left: 90px;
-  margin-top: -325px;
+  margin-top: -320px;
 
 }
 
@@ -835,8 +860,8 @@ margin: 0 auto;
 }
 
 #CessnaxRISD {
-  width: 15%;
-  height: 15%;
+  width: 18%;
+  height: 18%;
 
 }
 
@@ -888,7 +913,7 @@ margin: 0 auto;
 
 .BT_Screens {
   margin-bottom: 5%;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 #BP_Images {
@@ -900,14 +925,15 @@ margin: 0 auto;
 
 #BupuBook {
   /*float: left;*/
-  margin-left: -210px;
+  margin-left: -215px;
   margin-top: -190px;
+  margin-bottom: 5%;
   position: relative;
   left: 0px;
   z-index: 1;
   display: inline-block;
-  width: 120%;
-  height: 120%
+  width: 125%;
+  height: 125%
 }
 
 .BupuBook {
@@ -999,30 +1025,33 @@ margin-bottom: 5%;
 }
 
 #PCH_Screens {
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
   margin-top: 4%;
 }
 
-:-moz-placeholder {
-    color: #9b9b9b;
+      :-moz-placeholder {
+          color: #9b9b9b;
+      }
+
+      ::-webkit-input-placeholder {
+          color: #9b9b9b;
+      }
+
+      *:focus {outline: none;}
+
+       .contact_form label {
+        font-family: Dosis-Light;
+        margin-top: 10%;
+      }
+
+      .form_hint, .required_notification
+      {font-size: 11px;
+      }
+
+#Jet {
+  margin-left: -75px;
 }
-
-::-webkit-input-placeholder {
-    color: #9b9b9b;
-}
-
-*:focus {outline: none;}
-
- .contact_form label {
-  font-family: Dosis-Light;
-  margin-top: 10%;
-}
-
-.form_hint, .required_notification
-{font-size: 11px;
-}
-
 
 
 
