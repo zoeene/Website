@@ -132,6 +132,8 @@ nav {
 
 
 
+
+
 /*.container {
   width: 100%;
   height: 128px;
@@ -162,7 +164,7 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
 
 
 .BrandGradient {
-  display: inline-block;
+  /*display: inline-block;*/
   position: fixed;
   bottom: 0px;
   margin: 0px;
@@ -170,15 +172,33 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);*/
   height: 12px;
   transform: rotate(180deg);
   background: linear-gradient(270deg, #ddc38b, #f791e3, #eb7b58);
+  background-size: 100% 100%;
   /*-webkit-animation: mymove 10s ease infinite;*/
   /*animation: GradientBar 30s ease infinite;*/
+  animation: Anima 10s ease infinite;
+
+  @keyframes Anima {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+
 }
 
 
 
- .BrandGradient {
-  -webkit-animation: AnimationName 30s ease infinite;
-}
+/*#animate {*/
+	/*background-color: #ddc38b;
+	animation: animate 5s infinite alternate;
+}*/
+/*@keyframes animate {*/
+	/*animate will animate from 0 to 360. Saturation and Lightness remain constant*/
+	/*20% {background-color: #ddc38b;}*/
+	/*20% {background-color: #f791e3;}*/
+	/*60% {background-color: #eb7b58;}*/
+	/*80% {background-color: hsl(288, 100%, 50%);}
+	100% {background-color: hsl(360, 100%, 50%);}*/
+/*}*/
 
 
 
@@ -298,7 +318,7 @@ padding: 0.5%;
   height: 250px;
   /*border-radius: 2.5px;*/
   background-color: #c6c6c6;
-  margin: 1.5%;
+  margin: 0.75%;
   display: inline-block;
   /*box-shadow: 0px 1px 1px 0px rgba(155,155,155,0.10);*/
   text-align: center;
@@ -333,6 +353,7 @@ width: 100%;
 bottom: 0px;
 z-index: 3;
 margin-bottom: 12px;
+
 }
 
 
@@ -423,6 +444,7 @@ margin-top: -300px;
   display: block;
 
 }
+
 #KDR:hover .GradientHover_KDR{
   display: block;
 }
@@ -446,6 +468,7 @@ margin-top: -300px;
 
 .Project:hover img{
   -webkit-filter: blur(3px);
+
 }
 
 .ProjName {
@@ -461,7 +484,7 @@ h3.ProjName {
 font-family: Dosis-Regular;
 font-size: 32px;
 color: #FFFFFF;
-line-height: 32px;
+line-height: 34px;
 text-align: center;
 margin-bottom: 0px;
 display: block;
@@ -597,7 +620,7 @@ bottom: 0px;
 
 .Close {
   right: 100px;
-  top: 200px;
+  top: 175px;
   position: fixed;
   display: block;
 }
@@ -648,6 +671,16 @@ ul.Exit li {
   line-height: 28px;
 }
 
+.TextBlock h3 {
+  font-family: Dosis;
+  font-size: 32px;
+  color: #ececec;
+  letter-spacing: 1.42px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+}
+
 .ProjLogo {
   width: 12%;
   height: 12%;
@@ -670,6 +703,7 @@ margin: 0 auto;
 width: 90%;
 height: 90%;
 margin: 0 auto;
+margin-right: 2%;
 }
 
 #PCH_Devices {
@@ -758,7 +792,8 @@ margin: 0 auto;
    font-size: 30px;
    line-height: 34px;
    color: #ffffff;
-   font-family: Dosis-Medium;
+   font-family: Dosis;
+   text-transform: none;
 
  }
 
@@ -882,9 +917,11 @@ margin: 0 auto;
 }
 
 #hello {
-  width: 12%;
-  height: 12%;
-  margin-top: 10%;
+  width: 20%;
+  height: 20%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-left: 15%;
 }
 /*
 #searchbar {
@@ -1050,7 +1087,10 @@ margin-bottom: 5%;
       }
 
 #Jet {
-  margin-left: -75px;
+  margin-left: -190px;
+  width: 125%;
+  height: 125%;
+
 }
 
 
@@ -1067,10 +1107,63 @@ margin-bottom: 5%;
 }
 
 .Portrait {
-  width: 40%;
-  height: 40%;
-  margin: 5%;
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 60%;
+  margin-left: 1%;
+  /*position: fixed;*/
+  z-index: 3;
+  display: block;
 }
+
+.Portrait img {
+  border-radius: 100%;
+
+}
+
+.half {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.onethird {
+  width: 33.3%;
+  display: inline-block;
+  float: left;
+}
+
+.twothirds {
+  width: 66.6%;
+  display: inline-block;
+  float: left;
+}
+
+#fixed {
+  position: fixed;
+}
+
+
+#PCH_Responsive {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 35%;
+  height: 35%;
+  margin-top: -320px;
+  left: 85px;
+  margin-bottom: 8%;
+}
+
+.PCH_Responsive {
+  display: inline-block;
+  float: left;
+}
+
+
+
+
 
 /*------Media Queries
 ====================================*/
