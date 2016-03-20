@@ -1106,18 +1106,18 @@ margin-bottom: 5%;
 }
 
 .Portrait {
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
   margin: 0 auto;
   margin-top: 50%;
-  margin-left: 1%;
+  margin-left: 2%;
   /*position: fixed;*/
   z-index: 3;
   display: block;
 }
 
 .Portrait img {
-  border-radius: 100%;
+  /*border-radius: 100%;*/
 
 }
 
@@ -1188,6 +1188,72 @@ color: #CACACA;
   height: 82%;
   margin-top: 12%;
 }
+
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#fcfcfc;
+	border:1px solid #EEEEEE;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #cccccc;
+}
+
+.contact {
+  padding-top: 2%;
+  padding-bottom: 8%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 33%;
+}
+
+#submit {
+    border:none;
+    margin-top:25px;
+    text-align: center;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    color: #8CACCD;
+    background: #ffffff;
+    display: block;
+
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+
+
+  #sayhi {
+    width: 12%;
+    height: 12%;
+    margin-top: 12%;
+    /*margin-bottom: 5%;*/
+    /*margin-left: 15%;*/
+  }
 
 
 
