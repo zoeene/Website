@@ -53,7 +53,6 @@
 
 <div class="container">
   <nav class="Navigation">
-    <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
     <div class="LeftLogo">
       <a href="AboutMe.html">
         <img src="images/ZCE_Logo.png" alt="Zoë Chinonso Ene" class="Logo"/>
@@ -77,7 +76,9 @@
 </div>
 
 <nav class="MobileNav fadeInDown">
-  <ul>
+  <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
+
+  <ul class="dropdown">
     <li><a href="index.html" id="Page1">Recent Work</a></li>
     <li><a href="AboutMe.html" id="Page2">Who Am I?</a></li>
     <li><a href="contact.html" id="Page3">Say Hi!</a></li>
@@ -190,12 +191,12 @@
 
 <script>
   $('.MobileNavIcon').on('click', function(){
-    $('MobileNav').toggle();
+    $('.MobileNav li a').toggle();
   });
 
-  $('.MobileNavIcon').on('click', function(){
-    $(this).css("display", "none");
-  });
+  // $('.MobileNavIcon').on('click', function(){
+  //   $(this).css("display", "none");
+  // });
 
 </script>
 
