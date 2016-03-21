@@ -1,7 +1,6 @@
 
 /*------Mobile + Responsive Content
 ====================================*/
-
 .MobileNavIcon {
 
   display: inline-block;
@@ -16,7 +15,7 @@
 
 
 a.MobileNavIcon {
-  display: none;
+  display: block;
 }
 
 
@@ -60,7 +59,19 @@ a.MobileNavIcon {
 background-color: #f2f2f2;
   }
 
+.Navigation {
+  display: none;
+}
 
+@media (min-width: 600px) {
+    .MobileNav {
+      display: none;
+    }
+
+    .Navigation {
+      display: block;
+    }
+}
 
 
 
