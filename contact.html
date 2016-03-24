@@ -48,7 +48,6 @@
 
 <div class="container">
   <nav class="Navigation">
-    <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
     <div class="LeftLogo">
       <a href="index.html">
         <img src="images/ZCE_Logo.png" alt="Zoë Chinonso Ene" class="Logo"/>
@@ -68,11 +67,29 @@
 </div>
 
 <nav class="MobileNav fadeInDown">
-  <ul>
-    <li><a href="index.html" id="Page1">Recent Work</a></li>
-    <li><a href="AboutMe.html" id="Page2">Who Am I?</a></li>
-    <li><a href="contact.html" id="Page3">Say Hi!</a></li>
-    <li><a href="resume.html" id="Page4">Resumé</a></li>
+
+<div class="MobileHeader">
+  <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
+</div>
+
+
+
+<ul>
+    <li><a href="index.html" id="shadow">Recent Work</a></li>
+    <li><a href="AboutMe.html" id="shadow">Who Am I?</a></li>
+    <li><a href="contact.html" id="shadow">Say Hi!</a></li>
+    <li><a href="resume.html" id="shadow">Resumé</a></li>
+    <li>
+      <a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+
+    <li>
+      <a href="mailto:zene@risd.edu">
+        <i class="fa fa-envelope-o"></i>
+      </a>
+    </li>
     <!-- <li><a href="#" class="search"><i class="fa fa-search"></i></a></li> -->
   </ul>
 </nav>
@@ -111,18 +128,20 @@
   </div>
 
 <div class="contact">
-  <form>
+
+  <form accept-charset="UTF-8" action="https://formkeep.com/f/3341901433ce" method="POST" >
 
     <label>Name</label>
     <input name="name" placeholder="Name">
 
     <label>Email</label>
-    <input name="email" type="email" placeholder="Email address">
+    <input name="email" type="email" placeholder="Your email address">
 
     <label>Message</label>
-    <textarea name="message" placeholder="Hey Zoë! ..."></textarea>
+    <textarea name="message" placeholder="Hey Zoë!"></textarea>
 
     <input id="submit" name="submit" type="submit" value="Submit">
+
 
 </form>
 </div>
@@ -130,7 +149,7 @@
 
   <footer>
     <div class="FooterText">
-      <p>Self coded; ZCË, 2016</p>
+      <!-- <p>Self coded; ZCË, 2016</p> -->
 
       <div class="SocialIcons">
         <ul class="Social">
@@ -178,7 +197,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
   $('.MobileNavIcon').on('click', function(){
-    $('MobileNav').toggle();
+    $('.MobileNav').toggle();
   });
 
   $('.MobileNavIcon').on('click', function(){

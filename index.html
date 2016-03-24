@@ -75,14 +75,34 @@
   </nav>
 </div>
 
+
 <nav class="MobileNav fadeInDown">
+
+<div class="MobileHeader">
   <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
 
-  <ul class="dropdown">
-    <li><a href="index.html" id="Page1">Recent Work</a></li>
-    <li><a href="AboutMe.html" id="Page2">Who Am I?</a></li>
-    <li><a href="contact.html" id="Page3">Say Hi!</a></li>
-    <li><a href="resume.html" id="Page4">Resumé</a></li>
+  <a href="AboutMe.html">
+    <img src="images/ZCE_Logo.png" alt="Zoë Chinonso Ene" class="Logo"/>
+  </a>
+</div>
+
+
+<ul>
+    <li><a href="index.html" id="shadow">Recent Work</a></li>
+    <li><a href="AboutMe.html" id="shadow">Who Am I?</a></li>
+    <li><a href="contact.html" id="shadow">Say Hi!</a></li>
+    <li><a href="resume.html" id="shadow">Resumé</a></li>
+    <li>
+      <a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US" target="_blank" id="shadow">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+
+    <li>
+      <a href="mailto:zene@risd.edu" id="shadow">
+        <i class="fa fa-envelope-o"></i>
+      </a>
+    </li>
     <!-- <li><a href="#" class="search"><i class="fa fa-search"></i></a></li> -->
   </ul>
 </nav>
@@ -90,7 +110,7 @@
 </header>
 
 <main>
-<div class="Grid">
+<div class="GridHome">
   <div class="Gallery">
 
     <!-- <div class="Project"> -->
@@ -160,7 +180,7 @@
 
 <footer>
   <div class="FooterText">
-    <p>Self coded; ZCË, 2016</p>
+    <!-- <p>Self coded; ZCË, 2016</p> -->
 
     <div class="SocialIcons">
       <ul class="Social">
@@ -194,9 +214,9 @@
     $('.MobileNav li a').toggle();
   });
 
-  // $('.MobileNavIcon').on('click', function(){
-  //   $(this).css("display", "none");
-  // });
+  $('.MobileNavIcon').on('click', function(){
+    // $(this).css("display", "none");
+  });
 
 </script>
 

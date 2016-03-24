@@ -48,10 +48,9 @@
 
 <div class="container">
   <nav class="Navigation">
-    <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
     <div class="LeftLogo">
       <a href="index.html">
-        <img src="images/ZCE_Logo.png" alt="Zoë Chinonso Ene" class="Logo"/>
+        <img src="images/ZCE_Logo_color.png" alt="Zoë Chinonso Ene" class="Logo"/>
       </a>
     </div>
 
@@ -68,11 +67,29 @@
 </div>
 
 <nav class="MobileNav fadeInDown">
-  <ul>
-    <li><a href="index.html" id="Page1">Recent Work</a></li>
-    <li><a href="AboutMe.html" id="Page2">Who Am I?</a></li>
-    <li><a href="contact.html" id="Page3">Say Hi!</a></li>
-    <li><a href="resume.html" id="Page4">Resumé</a></li>
+
+<div class="MobileHeader">
+  <a href="#" class="MobileNavIcon"><i class="fa fa-plus fa-2x"></i></a>
+</div>
+
+
+
+<ul>
+    <li><a href="index.html" id="shadow">Recent Work</a></li>
+    <li><a href="AboutMe.html" id="shadow">Who Am I?</a></li>
+    <li><a href="contact.html" id="shadow">Say Hi!</a></li>
+    <li><a href="resume.html" id="shadow">Resumé</a></li>
+    <li>
+      <a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+
+    <li>
+      <a href="mailto:zene@risd.edu">
+        <i class="fa fa-envelope-o"></i>
+      </a>
+    </li>
     <!-- <li><a href="#" class="search"><i class="fa fa-search"></i></a></li> -->
   </ul>
 </nav>
@@ -100,17 +117,9 @@
     culpa qui officia deserunt mollit anim id est laborum.
   </p>
 
-  <p>
-    In addition to being an avid traveller - with just one continent left to visit,
-    save Antarctica - I am a chronic procrastiworker (check out Jessica Hische! -
-    http://jessicahische.is/workingbutnotworking)
-    In my free time, I’m usually trying my hand at perfecting family recipes, making
-    silly faces with my nieces over Facetime, and filling my pocket-size red sketchbook
-    with concepts and ideas.
-  </p>
 
   <p>
-    From a young age I was constantly creating things. I put together a working cardboard
+    From a young age I was constantly creating things. Once, on a hot afternoon with nothing to do, I put together a working cardboard
     looklike guitar, with serrated strips for the curved sides and stapled on rubber bands
     with varying colors for different notes. I also illustrated series of authored “books” -
     Mrs. Turtle and the Great Train Escape - made out of quartered A4 Printer Paper and purple
@@ -127,13 +136,43 @@
 
   </p>
   <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    I was most comfortable when I could picture things. My love for art later evolved into a
+    passion for design. Design had always been a passive synonym till I understood its multifaceted
+    nature, impact, and influence.
+  </p>
+<p>
+  Design is art in action; discovering the existence and importance of design and the role it played
+   and still plays in the decisions that have shaped progress - big or small, on the world stage or
+   in my backyard - reassured me of the true importance artistic creativity has in everyday life.
+ </p>
+ <p>
+   We all "design" in many ways than none - regardless of whether we have the education, terminology
+   or access to materials/technology and whether we consider our selves "creatively inclined". That's
+   what I love most design; the fact that we are all inherent problem-solvers and use it in all we do.
+   For example, in Nigeria, car-sharing has always been a societal response to poor and slow public transport;
+   many people in that society rely on it to get around. It's been around long before Uber and the only thing that
+   separates the two is the solid interface and system to connect the service to the user in a much easier way. Nonetheless, it is as qualified
+   a design solution, just like my textbooks in boarding school were my solution to gaining a deeper understanding of what I was taught.
+    They helped me move past cramming and onto true comprehension.
+      </p>
+
+      <p>
+        I am a firm believer in the power of "designing with" rather than "designing for" and advocate for design
+         thinking as a tool of engagement and empowerment.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum.
       </p>
+</div>
+
+<div class="container">
+<img src="images/thankyou!.png" alt="thank you!" class="CenteredImage" id="thankyou"/>
 </div>
 
 </div>
@@ -152,7 +191,7 @@
 
   <footer>
     <div class="FooterText">
-      <p>Self coded; ZCË, 2016</p>
+      <!-- <p>Self coded; ZCË, 2016</p> -->
 
       <div class="SocialIcons">
         <ul class="Social">
@@ -200,7 +239,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
   $('.MobileNavIcon').on('click', function(){
-    $('MobileNav').toggle();
+    $('.MobileNav').toggle();
   });
 
   $('.MobileNavIcon').on('click', function(){
