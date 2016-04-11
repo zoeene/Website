@@ -746,13 +746,12 @@ ul.Exit li {
   display: block;
   color: #000;
   padding: 0 15%;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
   margin-top: 5%;
 }
 
 .TextBlock p {
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .TextBlock h3 {
